@@ -1,5 +1,6 @@
 .header-area{
     padding: 8px 0;
+   box-shadow: 0px 0px 4px #939393;
 }
 .nav-bar{
     display: flex;

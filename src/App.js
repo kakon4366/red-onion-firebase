@@ -6,6 +6,7 @@ import Lunch from "./Pages/Foods/Lunch/Lunch";
 import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
+import NotFound from "./Pages/Shared/NotFound/NotFound";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 					<Route path="/lunch" element={<Lunch />}></Route>
 					<Route path="/dinner" element={<Dinner />}></Route>
 				</Route>
+				<Route path="*" element={<NotFound />}></Route>
 			</Routes>
 			<Footer></Footer>
 		</div>
