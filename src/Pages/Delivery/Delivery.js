@@ -14,6 +14,14 @@ const Delivery = () => {
 	return (
 		<section className="delivery-area">
 			<div className="container">
+				<div className="delivery-content">
+					<h2>Why you choose us</h2>
+					<p>
+						Barton waited twenty always repair in within we do. An
+						delighted offending curiosity my is dashwoods at. Boy
+						prosperous increasing surrounded.
+					</p>
+				</div>
 				<div className="delivery-container">
 					{delivery.map((deliveryItem) => (
 						<DeliveryItem
