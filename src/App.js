@@ -1,4 +1,8 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Breakfast from "./Pages/Foods/Breakfast/Breakfast";
+import Dinner from "./Pages/Foods/Dinner/Dinner";
+import Lunch from "./Pages/Foods/Lunch/Lunch";
 import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
@@ -7,7 +11,13 @@ function App() {
 	return (
 		<div className="App">
 			<Header></Header>
-			<Home></Home>
+			<Routes>
+				<Route path="/" element={<Home></Home>}>
+					<Route path="/breakfast" element={<Breakfast />}></Route>
+					<Route path="/lunch" element={<Lunch />}></Route>
+					<Route path="/dinner" element={<Dinner />}></Route>
+				</Route>
+			</Routes>
 			<Footer></Footer>
 		</div>
 	);

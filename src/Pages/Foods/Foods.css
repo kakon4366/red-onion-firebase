@@ -1,0 +1,10 @@
+.foods-area{
+    padding: 72px 0;
+}
+.food-items{
+    text-align: center;
+}
+.food-items a{
+    margin-right: 35px;
+    text-decoration: none;
+}
