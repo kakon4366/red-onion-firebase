@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import footerLogo from "../../../images/logo.png";
 import "./Footer.css";
 
@@ -8,7 +9,9 @@ const Footer = () => {
 			<div className="container">
 				<div className="footer-items">
 					<div className="footer-logo">
-						<img height="40px" src={footerLogo} alt="" />
+						<Link to="/">
+							<img height="40px" src={footerLogo} alt="" />
+						</Link>
 					</div>
 					<div className="footer-menu">
 						<span>About online food</span>

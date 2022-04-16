@@ -10,7 +10,9 @@ const Header = () => {
 			<div className="container">
 				<nav className="nav-bar">
 					<div className="logo">
-						<img height="40px" src={logo} alt="" />
+						<Link to="/">
+							<img height="40px" src={logo} alt="" />
+						</Link>
 					</div>
 					<ul className="menu-items">
 						<Link to="/cart">

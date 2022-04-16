@@ -1,0 +1,27 @@
+.delivery-details{
+    display: flex;
+    margin-top: 18px;
+}
+.delivery-detail{
+    margin-left: 8px;
+}
+.delivery-detail h3{
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.delivery-detail p{
+    font-size: 0.9rem;
+    color: #868686;
+}
+.delivery-detail a{
+    text-decoration: none;
+    color: #557BF7;
+    display: flex;
+    align-items: center;
+}
+.info-arrow{
+    width: 20px;
+    margin-left: 5px;
+    padding-top: 3px;
+}
