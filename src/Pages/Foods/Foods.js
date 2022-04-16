@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import CustomLink from "../Shared/CustomLink/CustomLink";
 import "./Foods.css";
 
 const Foods = () => {
@@ -7,9 +8,9 @@ const Foods = () => {
 		<section className="foods-area">
 			<div className="container">
 				<div className="food-items">
-					<Link to="/breakfast">Breakfast</Link>
-					<Link to="/lunch">Lunch</Link>
-					<Link to="/dinner">Dinner</Link>
+					<CustomLink to="/breakfast">Breakfast</CustomLink>
+					<CustomLink to="/lunch">Lunch</CustomLink>
+					<CustomLink to="/dinner">Dinner</CustomLink>
 				</div>
 				<div>
 					<Outlet></Outlet>

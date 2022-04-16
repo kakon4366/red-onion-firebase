@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Healthy Meal Plane",
+        "quote": "How we dream about our future",
+        "price": 23.99
+    },
+    {
+        "id": 2,
+        "name": "Fried Chicken Bento",
+        "quote": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "name": "Tarragon-Rubbed-Salmon",
+        "quote": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "id": 4,
+        "name": "Indian Lunch",
+        "quote": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "id": 5,
+        "name": "Beef Steak",
+        "quote": "How we dream about our future",
+        "price": 15.99
+    },
+    {
+        "id": 6,
+        "name": "Honey-Soy-glazed Salmon with Peppers",
+        "quote": "How we dream about our future",
+        "price": 7.99
+    }
+]

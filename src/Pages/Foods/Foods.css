@@ -3,8 +3,12 @@
 }
 .food-items{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .food-items a{
     margin-right: 35px;
     text-decoration: none;
+    color: #000;
+    font-weight: 500;
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Bagel and cream cheese",
+        "quote": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "id": 2,
+        "name": "Breakfast sandwich",
+        "quote": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "name": "Baked Chiken",
+        "quote": "How we dream about our future",
+        "price": 10.99
+    },
+    {
+        "id": 4,
+        "name": "Eggs Benedict",
+        "quote": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "id": 5,
+        "name": "Toast Croissant Fried Egg",
+        "quote": "How we dream about our future",
+        "price": 19.99
+    },
+    {
+        "id": 6,
+        "name": "Full Breakfast Fried Egg Toast Brunch",
+        "quote": "How we dream about our future",
+        "price": 3.99
+    }
+]
