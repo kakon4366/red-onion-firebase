@@ -13,6 +13,7 @@ function App() {
 			<Header></Header>
 			<Routes>
 				<Route path="/" element={<Home></Home>}>
+					<Route path="/" element={<Breakfast />}></Route>
 					<Route path="/breakfast" element={<Breakfast />}></Route>
 					<Route path="/lunch" element={<Lunch />}></Route>
 					<Route path="/dinner" element={<Dinner />}></Route>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Food from "../Food/Food";
-import "./Breakfast.css";
 
 const Breakfast = () => {
 	const [foods, setFoods] = useState([]);
