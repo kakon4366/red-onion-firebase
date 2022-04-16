@@ -21,4 +21,6 @@
     color: #fff;
     padding: 12px 24px;
     border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }

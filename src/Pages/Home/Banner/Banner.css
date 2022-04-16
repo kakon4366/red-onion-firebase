@@ -1,0 +1,32 @@
+.banner-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-area img{
+   width: 100%;
+   object-fit:none;
+}
+.search-field{
+    position: absolute;
+    top: 40%;
+    width: 600px;
+}
+.search-field input{
+   padding: 20px 130px 20px 20px;
+   width: 75%;
+   border: none;
+   outline: none;
+   border-radius: 40px;
+   font-size: 22px;
+   position: relative;
+}
+
+.search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px 42px!important;
+    border-radius: 50px!important;
+}
