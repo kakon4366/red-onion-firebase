@@ -12,6 +12,19 @@
     color: #000;
     font-weight: 500;
 }
+.checkout-btn-area{
+    text-align: center;
+}
+.checkout-btn{
+    padding: 14px 64px;
+    background-color: #CECECE;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+}
 .foods-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

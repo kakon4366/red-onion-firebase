@@ -1,3 +1,24 @@
 .food{
     text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+.food:hover{
+    box-shadow: 3px 3px 24px #dfdede;
+    cursor: pointer;
+}
+.food h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.food p{
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #A7A7A7;
+}
+.food h2{
+    font-size: 1.6rem;
+    color: #1d1d1d;
 }
