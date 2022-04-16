@@ -1,0 +1,36 @@
+.footer-area{
+    padding: 36px 0;
+    background-color: #191919;
+}
+.footer-items{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+}
+.footer-menu span{
+    color: #e7e7e7;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer-menu span:hover{
+    color: #fff;
+}
+.copyright-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.copyright-message small{
+    color: #bebebe
+}
+.trams-conditions a{
+    color: #e7e7e7;
+    margin-left: 60px;
+    text-decoration: none;
+}
